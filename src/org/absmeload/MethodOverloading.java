@@ -16,14 +16,16 @@ System.out.println("Employee id is " + id);
 System.out.println("Employee mobile number is"+ mobno);
 System.out.println("Employee email is " + email);
 		}
-		
+		public void test() {
+		System.out.println("test");
+		}
 		public static void main(String[] args) {
 			MethodOverloading m = new MethodOverloading();
 			m.empinfo("Monisha");
 			m.empinfo("Virugambakkam", 82);
 			m.empinfo(8027474, "swarnamonisha@gmail.com");
 			
-		}
 		
 	}
 
+}
