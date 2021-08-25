@@ -16,7 +16,9 @@ System.out.println("Employee id is " + id);
 System.out.println("Employee mobile number is"+ mobno);
 System.out.println("Employee email is " + email);
 		}
-		
+		private void method1() {
+System.out.println("method");
+		}
 		public static void main(String[] args) {
 			MethodOverloading m = new MethodOverloading();
 			m.empinfo("Monisha");
